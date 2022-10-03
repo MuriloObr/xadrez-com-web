@@ -1,0 +1,9 @@
+.whtPawn {
+    position: relative;
+    left: 15px;
+
+    height: 6em;
+    width: 6em;
+
+    background: url('../imgs/peao_branco.png') no-repeat;
+}

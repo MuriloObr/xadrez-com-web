@@ -1,0 +1,25 @@
+.tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 48em;
+    width: 48em;
+
+    border-radius: 2%;
+    box-shadow: 0 0 0 6px #383735;
+}
+
+.tabuleiro__casa {
+    height: 6em;
+    width: 6em;
+
+    font-family: 'Mitr', sans-serif;
+    color: #51504D;
+    z-index: -1;
+}
+.branca {
+    background-color: #EEEED2;
+}
+.preta {
+    background-color: #769656;
+}
