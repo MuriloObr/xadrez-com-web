@@ -1,9 +1,49 @@
-.whtPawn {
+.whtPawn, .blkPawn, .kntWhite, .kntBlack, .bspWhite, .bspBlack, .rksWhite, .rksBlack, .queenWhite, .queenBlack, .kingWhite, .kingBlack {
     position: relative;
     left: 15px;
 
     height: 6em;
     width: 6em;
+}
 
+.whtPawn {
     background: url('../imgs/peao_branco.png') no-repeat;
+}
+.blkPawn {
+    background: url('../imgs/peao_preto.png') no-repeat;
+}
+
+.kntWhite {
+    background: url('../imgs/cavalo_branco.png') no-repeat;
+}
+.kntBlack {
+    background: url('../imgs/cavalo_preto.png') no-repeat;
+}
+
+.bspWhite {
+    background: url('../imgs/bispo_branco.png') no-repeat;
+}
+.bspBlack {
+    background: url('../imgs/bispo_preto.png') no-repeat;
+}
+
+.rksWhite {
+    background: url('../imgs/torre_branca.png') no-repeat;
+}
+.rksBlack {
+    background: url('../imgs/torre_preta.png') no-repeat;
+}
+
+.queenWhite {
+    background: url('../imgs/dama_branca.png') no-repeat;
+}
+.queenBlack {
+    background: url('../imgs/dama_preta.png') no-repeat;
+}
+
+.kingWhite {
+    background: url('../imgs/rei_branco.png') no-repeat;
+}
+.kingBlack {
+    background: url('../imgs/rei_preto.png') no-repeat;
 }
